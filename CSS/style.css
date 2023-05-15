@@ -2,6 +2,7 @@ body{
     background-color: #1B3152;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    box-sizing: border-box;
 }
 
 h1{
@@ -14,10 +15,7 @@ h1{
     width: 450px;
     height: 50px;
     margin: 5px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px;
     border-style: none;
     border-radius: 10px;
     background-color: white;
@@ -76,3 +74,96 @@ h1{
     font-size: 20px;
 }
 
+footer{
+    height: 140px;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.footer{
+    /*display: flex;*/
+    text-align: center;
+    padding-top: 45px;
+}
+
+a{
+  text-decoration: none;
+}
+.icon-mail {
+  font-size: 2rem;
+  transition: 0.6s;
+  margin: 6px;
+  color: blue;
+  }
+  .icon-mail:hover{
+    font-size: 2.8rem;
+    color: rgb(122, 0, 223);
+  }
+
+.icon-facebook2 {
+  font-size: 2rem;
+  transition: 0.6s;
+  margin: 6px;
+  color: blue;
+}
+.icon-facebook2:hover{
+  font-size: 2.8rem;
+  color:rgb(122, 0, 223);
+}
+
+.icon-instagram {
+  font-size: 2rem;
+  transition: 0.6s;
+  margin: 6px;
+  color: blue;
+}
+.icon-instagram:hover{
+  font-size: 2.8rem;
+  color: rgb(122, 0, 223);
+}
+
+.icon-twitter {
+  font-size: 2rem;
+  transition: 0.6s;
+  margin: 6px;
+  color: blue;
+}
+.icon-twitter:hover{
+  font-size: 2.8rem;
+  color: rgb(122, 0, 223);
+}
+
+.icon-github {
+  font-size: 2rem;
+  transition: 0.6s;
+  margin: 6px;
+  color: blue;
+}
+.icon-github:hover{
+  font-size: 2.8rem;
+  color: rgb(122, 0, 223);
+}
+
+.icon-linkedin {
+  font-size: 2rem;
+  transition: 0.6s;
+  margin: 6px;
+  color: blue;
+}
+.icon-linkedin:hover {
+  font-size: 2.8rem;
+  color: rgb(122, 0, 223);
+}
+
+.copyright{
+  width: 100%;
+  height: 8px;
+  background-color: #1B3152;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin: 0px;
+  padding-bottom: 5px;
+}
